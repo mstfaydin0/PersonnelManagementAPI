@@ -19,7 +19,6 @@
       <Folder Include="Core\Controllers\Concrete" />
       <Folder Include="Mapping" />
       <Folder Include="Middlewares" />
-      <Folder Include="Models\Dtos" />
     </ItemGroup>
 
 </Project>

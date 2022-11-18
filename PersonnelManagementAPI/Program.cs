@@ -22,6 +22,9 @@ builder.Services.AddScoped<IDbConnection>(x => new NpgsqlConnection(connStr));
 builder.Services.AddScoped<IUserService, UserManager>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+builder.Services.AddScoped<IInvoiceService, InvoiceManager>();
+builder.Services.AddScoped<IInvoiceRepository, InvoiceRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
