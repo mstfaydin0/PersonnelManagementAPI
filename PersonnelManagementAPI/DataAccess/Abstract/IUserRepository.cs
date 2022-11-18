@@ -6,5 +6,9 @@ namespace PersonnelManagementAPI.DataAccess.Abstract;
 
 public interface IUserRepository : IBaseRepository<User, UserModify, UserRP>
 {
+}
+
+public interface IController
+{
     
 }
